@@ -38,6 +38,23 @@ namespace ValoresEspeciais
             Console.WriteLine($"Double inf positivo:{double.PositiveInfinity}");
             Console.WriteLine($"Double inf negativo:{double.NegativeInfinity}");
             Console.WriteLine($"Double NaN:{double.NaN}");
+
+            uint i = uint.MaxValue;
+
+            Console.WriteLine(i);
+            Console.WriteLine((uint)(i+1));
+            Console.WriteLine((uint)(i+5));
+
+            float k = 2 * float.MaxValue;
+            float j = float.MaxValue +1; 
+
+            Console.WriteLine(k);
+            Console.WriteLine(j); 
+
+            float f1, f2; 
+            f1 = f2 = 50000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f);
+
             
 
         }
