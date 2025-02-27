@@ -47,10 +47,15 @@ namespace ValoresEspeciais
             Console.WriteLine((uint)(i+6));
 
             float a = 2 * float.MaxValue;
-            float b = float.MaxValue +1; 
+            float b = float.MaxValue +3; 
 
             Console.WriteLine(a);
             Console.WriteLine(b); 
+
+            float f1, f2;
+            f1 = f2 = 10000.0f; 
+
+            Console.WriteLine(f1 == f2 + 0.0001f); 
 
 
 
