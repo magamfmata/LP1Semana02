@@ -40,6 +40,13 @@ namespace ValoresEspeciais
             Console.WriteLine($"Double inf negativo:{double.NegativeInfinity}");
             Console.WriteLine($"Double Nan:{double.NaN}");
 
+            uint i = uint.MaxValue;
+
+            Console.WriteLine(i);
+            Console.WriteLine((uint)(i+3));
+            Console.WriteLine((uint)(i+6));
+
+
 
 
 
