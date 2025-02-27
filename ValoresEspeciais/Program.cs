@@ -32,11 +32,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"Min valor double: {double.MinValue}");
             Console.WriteLine($"Min valor char: {char.MinValue}");
             Console.WriteLine($"Max valor char: {double.MaxValue}");
-            Console.WriteLine($"Float inf positivo:{float.PositiveInfinity}");
-            Console.WriteLine($"Float inf negativo:{float.NegativeInfinity}");
-            Console.WriteLine($"Float NaN:{float.NaN}");
-            Console.WriteLine($"Double inf positivo:{double.PositiveInfinity}");
-            Console.WriteLine($"Double inf negativo:{double.NegativeInfinity}");
+
+
+
 
 
             
