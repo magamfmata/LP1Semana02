@@ -46,6 +46,13 @@ namespace ValoresEspeciais
             Console.WriteLine((uint)(i+3));
             Console.WriteLine((uint)(i+6));
 
+            float a = 2 * float.MaxValue;
+            float b = float.MaxValue +1; 
+
+            Console.WriteLine(a);
+            Console.WriteLine(b); 
+
+
 
 
 
